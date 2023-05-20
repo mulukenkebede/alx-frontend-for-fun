@@ -1,0 +1,24 @@
+CSS PROPERTIES
+  - font-variant: set all font variants (font-variant-alternates, font-variant-caps, etc).
+  - :focus-within: pseudo class that represents an element that has received focus or contains an element 
+    that has received focus
+
+FORM
+  - fieldset tag: used to group several controls as well as labels (<label>) within a web form.
+    it looks like put a box with all its border visible
+  - legend tag: this is the text that is the fieldset title, it is on top in the border
+  - input tag:
+    *attributtes:
+      - accesskey: let us creat a shortcut to focus or active that element. In linux the shortcut is
+        actived with alt + shift + accesskey 
+      - pattern: 
+        [A-Za-zÀ-ž\s]{3,} - all character with and without accents and at least 3 characters
+        [a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$ - pattern to a valid mail with lowercase characters numbers and 
+          special characters before the @ and lowercase characters number after @ and before . and ar least two
+          characters after . only lowercase letter
+      - aria-label: used to define a string that labels the current element. Use it in cases where a text label 
+        is not visible on the screen
+  - i tag: used to put icons too
+
+  SELECTORS
+  - ~: <val1> ~ <val2>: selects all element val1 that are preceded by a val2
