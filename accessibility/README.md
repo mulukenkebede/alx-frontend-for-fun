@@ -60,4 +60,4 @@ Read or watch:
 ---
 
 ## Author
-* **JMuluken kebede**
+* **Muluken kebede**
